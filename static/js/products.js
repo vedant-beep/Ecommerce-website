@@ -1,4 +1,3 @@
-console.log("Hello Products");
 let oil_tank = document.getElementById('oil-tank');
 let gas_tank = document.getElementById('gas-tank');
 gas_tank.addEventListener('click', (e)=>{
