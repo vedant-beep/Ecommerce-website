@@ -1,0 +1,207 @@
+{% extends 'base.html' %}
+{% block title %}Products{% endblock %}
+{% load static %}
+{% block css %}
+.nav-content nav ul li #products{
+color: #1bff00;
+}
+{% endblock %}
+{% block body %}
+<main class="my-5">
+    <div class="main-container my-5">
+        <section class="information my-5">
+            <div class="info-section my-5">
+                <h2>Smart Water Management Products</h2>
+                <p>Staple Technologies offers affordable solutions created to help you better the effectiveness of your
+                    infrastructure
+                    to fulfil the demands and mitigate the challenges of saving water.</p>
+            </div>
+        </section>
+        <section class="product-info">
+            <div class="container1">
+                <div class="left1"></div>
+                <div class="right">
+                    <div class="content">
+                        <div class="levelNo">
+                        <span>
+                            01
+                        </span>
+                        </div>
+                        <h1>Smart Water Level Monitoring</h1>
+                        <p>
+                            A multifunction IoT based device with easy to use software to view all the parameters needed
+                            to effectively monitor & manage water supply-chain from pump house to distribution. This
+                            multifunction IoT based device enables the complete control over the whole operation of
+                            water distribution in the palm of the decision makers.
+                        </p>
+                        <ul class="cercalList">
+                            <li>efficiency improvement</li>
+                            <li>average money saved</li>
+                            <li>wastage prevention</li>
+                        </ul>
+                        <a href="flow-level-monitor/" class="btn">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container1">
+                <div class="left2"></div>
+                <div class="right">
+                    <div class="content">
+                        <div class="levelNo">
+                        <span>
+                            02
+                        </span>
+                        </div>
+                        <h1>Smart Pump Controller & Monitoring</h1>
+                        <ul>
+                            <li>Pump energy consumption</li>
+                            <li>Over energy consumption alert</li>
+                            <li>Remote on/off</li>
+                            <li>Pump Maintenance alert</li>
+                            <li>Pump working under how much capacity</li>
+                            <li>Pump filling capacity</li>
+                            <li>Approx consumption (if level and pump controller both installed)</li>
+                            <li>Integration with Digital panel (Gradually increse pannel Integration base)</li>
+                            <li>Continuos Maintainance support</li>
+                            <li>Centralise monitoring on web and Mobile</li>
+                            <li>Operational Hours Monitoring</li>
+                        </ul>
+                        <a href="flow-level-monitor/" class="btn">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="information">
+            <div class="info-section">
+                <div class="heading mb-5">
+                    <h2>GAS TANKS with LPG BULLET TANKS</h2>
+                    <p>
+                        In collaboration with Sensile Technologies of Switzerland advanced wireless tank monitoring
+                        system gives you the ability to know who needs product – when, where and how much.
+                    </p>
+                </div>
+                <div class="tanks">
+                    <div class="head">
+                        <a href="#" class="btn btn-style btn-color" id="oil-tank">Oil Lubricant Tank</a>
+                        <a href="#" class="btn btn-style" id="gas-tank">Gas Tank</a>
+                    </div>
+                    <div id="tank-content" class="mt-5">
+                        <div class="content-info">
+                            <div class="image">
+                                <img src="https://ariontechsol.com/images/oil-lubircant-tank.png" alt="">
+                            </div>
+                            <div class="text">
+                                <h3>Oil Lubricant Tank</h3>
+                                <ul class="mt-3">
+                                    <li>Oil Link™ is a robust, autonomous system for remote monitoring of oil and
+                                        lubricant tank levels via the internet.
+                                    </li>
+                                    <li>The system is easily installed on all types of oil tanks – including heating
+                                        oil, diesel, heavy oil and lubricants – and works reliably and accurately in any
+                                        location.
+                                    </li>
+                                    <li>Oil Link™ can also monitor other parameters, such as fuel temperature or the
+                                        status of a burner or any other relay.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="my-3 advantages">
+                            <h5>Advantages</h5>
+                            <ul>
+                                <li>Reduction of logistics costs by at least 20%, thanks to optimal delivery schedules
+                                </li>
+                                <li>Elimination of breakdowns due to lack of fuel and emergency deliveries</li>
+                                <li>Reduction of the CO2 footprint thanks to the reduction of deliveries</li>
+                                <li>Improved purchase planning</li>
+                                <li>Detailed visualization of customers’ consumption</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="information">
+            <div class="info-section">
+                <div class="wrapper">
+                    <div class="parent-tab">
+                        <input type="radio" name="tab" id="tab-1">
+                        <label for="tab-1">
+                            <span>How it works</span>
+                            <div class="icon"><i class="fas fa-plus"></i></div>
+                        </label>
+                        <div class="content">
+                            <ul>
+                                <li>A telemetry system is installed on the tank</li>
+                                <li>Tank-level measurements are regularly, via the GSM network, sent to the cloud which
+                                    automatically processes the data.
+                                </li>
+                                <li>Oil merchants and/or their haulers automatically get tank levels into their planning
+                                    tools. Deliveries are then planned automatically. They can even view and analyze the
+                                    data directly in the user-friendly Oil Link web portal, from their office or on the
+                                    road. The end-customers can also get access to view their consumption on their
+                                    smartphone.
+                                </li>
+                                <li>Thanks to the optimization of deliveries based on live data, oil merchants and/or
+                                    their haulers lower their logistics costs by more than 20%, without the risk of
+                                    their customers running dry.
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="parent-tab">
+                        <input type="radio" name="tab" id="tab-2">
+                        <label for="tab-2">
+                            <span>Oil Link Web Portal</span>
+                            <div class="icon"><i class="fas fa-plus"></i></div>
+                        </label>
+                        <div class="content">
+                            <p>The user-friendly Oil Link™ web portal is the interface between the telemetry units and
+                                your logistic solution. It allows you to easily access, view, analyze and export
+                                tank-level data via the internet. Oil Link™ can also initiate alarms, if a low or high
+                                tank level is reached, allowing you to take immediate action.The Mobile version of Oil
+                                Link™ is a very practical way to quickly and simply view your stock and consumption,
+                                while on the go. It is compatible with any mobile phones and tablet browsers.</p>
+                        </div>
+
+                    </div>
+                    <div class="parent-tab">
+                        <input type="radio" name="tab" id="tab-3">
+                        <label for="tab-3">
+                            <span>Battery-Powered GSM Telemetry Unit NETRIS</span>
+                            <div class="icon"><i class="fas fa-plus"></i></div>
+                        </label>
+                        <div class="content">
+                            <ul class="mt-3">
+                                <li>Tank-level and temperature monitoring</li>
+                                <li>GSM/GPRS (optional 3G and LTE) and RF transmission</li>
+                                <li>7-year battery life (1 transmission/day)</li>
+                                <li>ATEX, UL certified</li>
+                                <li>Optional localisation module (GPS)</li>
+                                <li>Monitoring of multiple tanks with only one unit</li>
+                                <li>Waterproof (IP 68)</li>
+                                <li>Robust housing designed for fast and easy installation</li>
+                                <li>2-year guarantee</li>
+                            </ul>
+                            <h4>DESIGNED FOR</h4>
+                            <ul class="mt-3">
+                                <li>Oil tanks – including heating oil, diesel, heavy oil and lubricants at unpowered sites</li>
+                                <li>Underground or above ground tanks in remote areas</li>
+                            </ul>
+                            <h4>COMAPTIBLES WITH</h4>
+                            <ul class="mt-3">
+                                <li>Level sensors from Sensile Technologies</li>
+                                <li>Other level sensors with external power supply</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+{% endblock %}
+{% block js %}
+<script src="{% static 'js/products.js' %}"></script>
+{% endblock %}

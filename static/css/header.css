@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+header{
+    height: 100px;
+    box-shadow: 2px 2px 4px 5px rgba(0, 0, 0, 0.26);
+    background-color: #3581B8;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+}
+
+.header-container{
+    height: 100%;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+}
+.header-container .nav-content .logo{
+    height: 77px;
+    width: 133px;
+}
+.nav-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container .nav-content .logo img{
+    height: 100%;
+    width: 100%;
+}
+.nav-content nav{
+    margin-right: 4px;
+}
+.nav-content nav ul{
+    display: flex;
+    margin-left: 6px;
+}
+.nav-content nav ul li{
+    list-style: none;
+    padding: 32px;
+    font-size: 19px;
+}
+.nav-content nav ul li a{
+    text-decoration: none;
+    color: #cee5f2;
+    transition: all 0.2s ease-in;
+}
+.nav-content nav ul li a:hover{
+    color: #1bff00;
+}
+.nav-content nav ul li a:active{
+    color: #1bff00;
+}
+@media screen and (max-width: 769px){
+    .line{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+    .header-container{
+        position: relative;
+    }
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+    }
+    .nav-links{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: #3581B8;
+        flex-direction: column;
+        /*clip-path: circle(1000px at 90% -10%);*/
+        transition: all 0.4s ease-out;
+        -webkit-clip-path: circle(27% at 90% -20%);
+    }
+    .nav-links.open{
+        -webkit-clip-path: circle(156% at 90% -20%);
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .nav-links li a{
+        font-size: 25px;
+    }
+    .nav-links li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3){
+        transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4){
+        transition: all 0.5s ease 0.8s;
+    }
+    li.myfade{
+        opacity: 1;
+    }
+}

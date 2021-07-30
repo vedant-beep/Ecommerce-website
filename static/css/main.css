@@ -1,0 +1,326 @@
+main{
+    margin: 5px 2px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+h1, h2{
+    padding: 0;
+}
+main::before{
+    content: "";
+    background: url("../images/sea.jpg") no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.6;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-container .myback-color{
+    width: 39%;
+    margin: 5px auto;
+    background-color: white;
+}
+.main-container .myback-color h1{
+    color: #3581B8;
+    font-size: 43px;
+    text-align: center;
+}
+
+.main-container .myback-color h1 span{
+    color: #26d811;
+}
+.main-container .info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1143px;
+}
+.main-container .info-section h2{
+    margin: 11px 3px;
+    text-align: left;
+    font-size: 38px;
+}
+.main-container .info-section p, .main-container .info-section h2{
+    max-width: 970px;
+    text-align: center;
+}
+.main-container .info-section p:first-child{
+    padding-bottom: 4px;
+}
+.main-container .info-section p:last-child{
+    padding-top: 4px;
+}
+.main-container .information-section{
+    margin: 10px 0;
+}
+.main-container .carousel{
+    display: flex;
+}
+.main-container .product-info{
+    margin-bottom: 5px;
+    border-bottom: 2px solid #70707085;
+}
+.heading{
+    border-bottom: rgba(112, 112, 112, 0.75);
+    margin-bottom: 3px;
+}
+
+.btn-style{
+    color: #3581B8;
+    border: 2px solid #3581B8;
+    border-radius: 30px;
+    margin: 0 25px;
+    transition: all 0.3s ease;
+}
+.btn-style:hover{
+    background-color: #3581B8;
+    color: white;
+}
+.tanks{
+    display: flex;
+    flex-direction: column;
+}
+.tanks .head{
+    display: flex;
+    justify-content: center;
+}
+.tanks #tank-content{
+    display: flex;
+    flex-direction: column;
+}
+.tanks #tank-content .content-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tanks #tank-content .content-info .image{
+    width: 291px;
+    height: 233px;
+    margin: 0 15px;
+}
+.tanks #tank-content .content-info .image img{
+    width: 100%;
+    height: 100%;
+}
+.tanks #tank-content .content-info .text{
+    margin: 0 11px;
+}
+.btn-color{
+    background-color: #3581B8;
+    color: white;
+}
+.num{
+    color: #006F70;
+    display: block;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -30px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #006F70;
+}
+.myimage{
+    width: 100px;
+    height: 100px;
+    margin: 21px;
+}
+.myimage img{
+    width: 100%;
+    height: 100%;
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;
+    background-color:#FFFF00;
+    height: 1px;
+}
+.help{
+    justify-content: space-evenly;
+}
+.help-content .text-content .my-text{
+    max-width: 200px;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact::before{
+    content: "";
+    background: url("../images/sea.jpg") no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+.contact .content1{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content1 h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #000;
+}
+.contact .content1 p{
+    font-weight: 300;
+    color: #000;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container2 .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container2 .contactInfo .box1{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container2 .contactInfo .box1 .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #3581B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container2 .contactInfo .box1 .text1{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container2 .contactInfo .box1 .text1 h3{
+    font-weight: 500;
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    position: relative;
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input, .contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.3s;
+    color: #666;
+}
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: #3581B8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 11px;
+    transition: all 0.3s ease;
+}
+.contactForm .inputBox input[type="submit"]:hover{
+    background: #055a8e;
+}
+.my-image{
+    width: 50%;
+}
+.my-image img{
+    width: 100%;
+}
+#about-us{
+    min-height: 60vh;
+}
+@media screen and (max-width: 500px){
+    .main-container .myback-color{
+        width: 75%;
+    }
+    main::before{
+        height: 862px;
+    }
+}
+@media screen and (max-width: 769px) and (min-width: 550px){
+    main::before{
+        height: 540px;
+    }
+}
+@media screen and (max-width: 769px){
+    .help{
+        align-items: center;
+        flex-direction: column;
+    }
+    .help-content{
+        margin: 10px 0;
+    }
+
+}
+
+@media screen and (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .container2 .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container2 .contactInfo,
+    .contactForm{
+        width: 100%;
+    }
+}

@@ -1,0 +1,1 @@
+web: gunicorn staple.wsgi --log-file -

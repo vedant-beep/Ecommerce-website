@@ -1,0 +1,269 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+{% load static %}
+{% block css %}
+.nav-content nav ul li #home{
+color: #1bff00;
+}
+{% endblock %}
+{% block body %}
+<main class="my-5">
+    <div class="main-container my-5">
+        <section class="information my-5">
+            <div class="myback-color my-5">
+            <h1>Staple <span>Technologies</span></h1>
+            </div>
+            <div class="info-section">
+                <h2>Providing Data-Driven Insights for managing water smartly.</h2>
+                <p>Staple Minerals Pvt. ltd. is committed to the cause of conserving the most valuable resource-WATER.
+                    Staple Minerals Pvt Ltd helps the bulk supplier of water as well as bulk users of water with
+                    reliable &
+                    authentic data on water storage levels in the respective water storage tank / reservoirs with its
+                    proprietary wireless IoT Based Smart Water Monitoring Tool. Besides Level monitoring , the
+                    proprietary
+                    solution also monitors electricity consumption of pump & pump health.</p>
+                <p>The bulk suppliers as well as bulk users of water grapple with getting timely information on water
+                    levels
+                    & alerts from ESR/GSR/reservoir as well as water pump infrastructure resulting in water wastage &
+                    breakdown in water supply infrastructure.</p>
+            </div>
+        </section>
+        <section class="manage border-bottom-1">
+            <div class="manage-section">
+                <div class="container">
+                    <div class="card">
+                        <div class="imgBx" data-text="Measure">
+                            <img src="https://ariontechsol.com/images/d1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h2 class="mb-3">Measure</h2>
+                            <button type="button" class="btn btn-primary my-btn" data-bs-toggle="modal"
+                                    data-bs-target="#measure">
+                                See How!
+                            </button>
+                            <div class="modal fade" id="measure" tabindex="-1" aria-labelledby="e1"
+                                 aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <video controls width="100%">
+                                                <source src="{% static 'videos/new-video.mp4' %}" type="video/mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <div class="imgBx" data-text="Manage">
+                            <img src="https://ariontechsol.com/images/d2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>Manage</h2>
+                            <button type="button" class="btn btn-primary my-btn" data-bs-toggle="modal"
+                                    data-bs-target="#manage">
+                                See How!
+                            </button>
+                            <div class="modal fade" id="manage" tabindex="-1" aria-labelledby="e2"
+                                 aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <video controls width="100%">
+                                                <source src="{% static 'videos/new-video.mp4' %}" type="video/mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="imgBx" data-text="Save">
+                        <img src="https://ariontechsol.com/images/d3.png" alt="">
+                    </div>
+                        <div class="content">
+                            <h2>Save</h2>
+                            <button type="button" class="btn btn-primary my-btn" data-bs-toggle="modal"
+                                    data-bs-target="#save">
+                                See How!
+                            </button>
+                            <div class="modal fade" id="save" tabindex="-1" aria-labelledby="e3"
+                                 aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <video controls width="100%">
+                                                <source src="{% static 'videos/new-video.mp4' %}" type="video/mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="information-section">
+            <!--            <div class="blog-post">-->
+            <!--                <div class="blog-post_img">-->
+            <!--                    <img src="https://ariontechsol.com/images/smart-water.jpg" alt="">-->
+            <!--                </div>-->
+            <!--                <div class="blog-post_info">-->
+            <!--                    <h1 class="blog-post_title">Lorem ipsum dolor sit amet.</h1>-->
+            <!--                    <p class="blog-post_text">-->
+            <!--                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur at autem cumque dolore-->
+            <!--                        est incidunt provident quas soluta velit? Aliquid, nobis, tempora!-->
+            <!--                    </p>-->
+            <!--                </div>-->
+            <!--            </div>-->
+                <h3 class="text-center border-bottom-2 border-dark">Why Do we need water management?</h3>
+            <div class="d-flex my-5 mx-3 border border-2 py-5 px-3 border-dark water-management">
+                <div class="my-image">
+                    <img src="https://ariontechsol.com/images/smart-water.jpg" alt="">
+                </div>
+                <div class="wrapper">
+                    <div class="parent-tab">
+                        <input type="radio" name="tab" id="tab-1">
+                        <label for="tab-1">
+                            <span>21</span>
+                            <div class="icon"><i class="fas fa-plus"></i></div>
+                        </label>
+                        <div class="content">
+                            <p>Major cities in India to reach zero groundwater levels by 2025. The future is dark</p>
+                        </div>
+
+                    </div>
+                    <div class="parent-tab">
+                        <input type="radio" name="tab" id="tab-2">
+                        <label for="tab-2">
+                            <span>25% to 40%</span>
+                            <div class="icon"><i class="fas fa-plus"></i></div>
+                        </label>
+                        <div class="content">
+                            <p>of the total water supplied is Non-Revenue Water threatening the stability of Urban Local Bodies.</p>
+                        </div>
+
+                    </div>
+                    <div class="parent-tab">
+                        <input type="radio" name="tab" id="tab-3">
+                        <label for="tab-3">
+                            <span>Lack of Data</span>
+                            <div class="icon"><i class="fas fa-plus"></i></div>
+                        </label>
+                        <div class="content">
+                            <p>Lack of Reliable & Authentic Data on Water hampering effective policy formulation & limiting research & innovation</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-image">
+                <img src="https://ariontechsol.com/images/wifi.jpg" alt="">
+            </div>
+        </section>
+        <section class="container3 my-3">
+            <h1>Staple Smart Water Management Tool</h1>
+            <ul>
+                <li>A cost effective wireless IoT based Solution.</li>
+                <li>Manages the whole supply chain of water by capturing, recording, and analyzing water data.</li>
+                <li>insights generated by measuring the level, flow & consumption of water to reduce water wastage</li>
+                <li>Reduces revenue loss due to non-Metered water Supply.</li>
+                <li>Relies on solar power for its power needs.</li>
+            </ul>
+            <hr>
+            <ul id="3m">
+                <li><strong>Measure Smarter -</strong> IoT based solutions measure level & consumption of water in
+                    Storage tanks
+                    .
+                </li>
+                <li><strong>Manage Better -</strong> Captures, records, and analyze real time water data - allows faster
+                    decision -
+                    making
+                </li>
+                <li><strong>Save Higher -</strong> Reduces non-revenue water losses, keep track of electricity
+                    consumption, prevent
+                    breakdown of motors to improve ROI; solar powered micro-controller accounts for negligible
+                    operational cost and reduces infrastructure expenditures.
+                </li>
+            </ul>
+        </section>
+        <h3 class="text-center">Best Suited for</h3>
+        <div class="my-3 mx-3" style="width: 100%;">
+            <div class="d-flex my-3 mx-3 help">
+                <div class="help-content">
+                    <div class="image">
+                        <img src="https://ariontechsol.com/images/helps.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <div class="text-title">
+                            <h5 class="my-3">Urban Local Bodies</h5>
+                        </div>
+                        <div class="my-text">
+                            Get real time water data in storage tanks at any given point in time from anywhere, keep track of
+                            electricity consumption & monitor the health of water pumps, thus improving your water management
+                            efficiency. Prevent water overflow, theft, leakages (non-metered revenue los).
+                        </div>
+                    </div>
+                </div>
+                <div class="help-content">
+                    <div class="image">
+                        <img src="https://ariontechsol.com/images/helps.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <div class="text-title">
+                            <h5 class="my-3">Manufacturing Units</h5>
+                        </div>
+                        <div class="my-text">
+                            Optimise efficiency of your resources to maximum your ROI. Accurate data helps you in quicker
+                            planning and efficient operations leading to uninterrupted and seamless water management.
+                        </div>
+                    </div>
+                </div>
+                <div class="help-content">
+                    <div class="image">
+                        <img src="https://ariontechsol.com/images/helps.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <div class="text-title">
+                            <h5 class="my-3">Commercial Complexes</h5>
+                        </div>
+                        <div class="my-text">
+                            Easy to analyse, configure and communicate, Arion Smart Solutions help you detect your problems
+                            quicker to improve usability and control incurring costs
+                        </div>
+                    </div>
+                </div>
+                <div class="help-content">
+                    <div class="image">
+                        <img src="https://ariontechsol.com/images/helps.png" alt="">
+                    </div>
+                    <div class="text-content">
+                        <div class="text-title">
+                            <h5 class="my-3">Residential Entities</h5>
+                        </div>
+                        <div class="my-text">
+                            Monitor small leaks, irresponsible usage which cause big overhead costs. Bring down your society
+                            water and electricity bills and increase water savings. Upgrade your existing water management to
+                            smart water management.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
