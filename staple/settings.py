@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-qj&r=f0b1r9##3*++yb+zmkx%a=fun7ggqwncty-r&l%r(gtjv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['90a2198b5459.ngrok.io', '127.0.0.1', 'ba5b6606766b.ngrok.io', 'e397c25ef715.ngrok.io','staple-minerals.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'staple-minerals.herokuapp.com', 'www.stapletech.co.in', 'stapletech.co.in']
 
 
 # Application definition
