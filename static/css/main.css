@@ -65,6 +65,7 @@ main::before{
 .main-container .product-info{
     margin-bottom: 5px;
     border-bottom: 2px solid #70707085;
+    width: 90%;
 }
 .heading{
     border-bottom: rgba(112, 112, 112, 0.75);
