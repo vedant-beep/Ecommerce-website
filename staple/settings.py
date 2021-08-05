@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-qj&r=f0b1r9##3*++yb+zmkx%a=fun7ggqwncty-r&l%r(gtjv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'staple-minerals.herokuapp.com', 'www.stapletech.co.in', 'stapletech.co.in']
 
